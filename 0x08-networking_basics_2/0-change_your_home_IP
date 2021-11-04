@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Configures an Ubuntu server 
 
 cp /etc/hosts ~/hosts.new
 echo "127.0.0.2		localhost" > ~/hosts.new
