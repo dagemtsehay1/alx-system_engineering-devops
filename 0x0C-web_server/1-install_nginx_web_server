@@ -2,7 +2,7 @@
 # Installs Nginx
 
 apt-get update
-apt-get install -y nginx
+apt-get -y install nginx
 
 mkdir /etc/nginx/html
 touch /etc/nginx/html/index.html
