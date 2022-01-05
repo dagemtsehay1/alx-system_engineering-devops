@@ -4,7 +4,7 @@
 apt-get update
 apt-get -y install nginx
 
-mkdir /etc/nginx/html
+mkdir -p /etc/nginx/html
 touch /etc/nginx/html/index.html
 echo "Hello World!" > /etc/nginx/html/index.html
 printf %s "server {
